@@ -75,3 +75,16 @@ h1{
   max-width: 50%;
   width: 270px
 }
+
+@media only screen and (max-width: 420px) {
+  ul{
+    display: block
+  }
+  header{
+    max-height: max-content;
+  }
+  img.logo{
+    max-width: 100%
+    margin: auto;
+  }
+}
