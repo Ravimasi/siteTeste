@@ -15,7 +15,9 @@ background-color: #221e1f;
 display: flex;
 flex-direction: row;
 max-height: 100px;
-margin: auto;
+background-attachment: fixed;
+position: sticky;
+top: 0px;
 }
 
 a:any-link{
@@ -40,7 +42,7 @@ img.logo {
   margin-left: 5px;
   margin-right: 0px;
   border-radius: 50%;
-  margin: auto;
+  border: 2px solid #221e1f;
 }
 
 .menu a:hover{
@@ -50,7 +52,7 @@ img.logo {
 }
 .menu a{
   padding: 4px 5px;
-  transition: all .2s;
+  transition: .2s;
   border-radius: 4px;
 }
 
@@ -63,6 +65,7 @@ img.logo {
   letter-spacing: 1px;
   background-attachment: fixed;
   text-shadow: 1px 1px #221e1f;
+  font-size: 24px;
 }
 h1{
   text-decoration-line: underline;
@@ -73,7 +76,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
-  width: 270px
+  width: 280px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -84,7 +87,28 @@ h1{
     max-height: max-content;
   }
   img.logo{
-    max-width: 100%
-    margin: auto;
+    max-width: 100%;
+    
   }
+}
+.instagram{
+  width: 50px;
+}
+hr{
+  height: 20px;
+  color: #221e1f;
+
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
